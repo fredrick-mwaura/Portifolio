@@ -1,0 +1,44 @@
+.Navigation{
+    display: flex;
+    font: 800 30px lusitiana;
+    list-style: none;
+    gap: 20px;
+}
+
+.header {
+    width: 100%;
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+    padding: 20px;
+     height: 100dvh;
+    background-image: url("https://tinyurl.com/dsdfghjk254");
+}
+
+.navi{
+    width: 100%;
+    position: fixed;
+}
+.Navigation{
+    margin-right: 10px ;
+
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    /*color: white;*/
+}
+
+/*a {*/
+/*    !*text-decoration: none;       !* Remove underline from links *!*!*/
+/*    color: black;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.main{
+    margin: 100px 0 0 40px;
+}
+
+.Dp{
+    border-radius: 50%;
+    float: right;
+}

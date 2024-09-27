@@ -1,0 +1,12 @@
+/public ---> static components(Images)
+
+image optimising
+
+lazy loading
+
+
+Let's use the <Image> component. If you look inside the /public folder, you'll see there are two images:
+hero-desktop.png and hero-mobile.png. These two images are completely different, 
+and they'll be shown depending if the user's device is a desktop or mobile.
+
+In your /app/page.tsx file, import the component from next/image. Then, add the image under the comment:
