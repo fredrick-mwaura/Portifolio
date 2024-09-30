@@ -28,9 +28,9 @@ const router =  useRouter();
             <div className="main justify-around">
                 <p className="float-left mr-3"><span className="text-cyan-600 font-bold text-2xl m-2">I am </span><br/>
                     <span className="text-6xl font-extrabold">
-                    Fredrick <br/> Mwaura <br/></span><span className="text-blue font-bold text-4xl mr-3.5 capitalize"> <br/><br/>A talented full stack  webs<span
-                    className="text-black">ite developer </span></span><br/>
-                    <button onClick={sayhello}> contact me.. </button>
+                    Fredrick <br/> Mwaura <br/></span><span className="text-white font-bold text-4xl mr-3.5 capitalize"> <br/><br/>A talented full stack  websit<span
+                    className="text-black">e developer </span></span><br/>
+                    <button onClick={sayhello} className='bg-green-500 text-white font-semibold px-6 py-2 rounded-lg hover:bg-green-600 transition duration-300 m-5'> contact me </button>
                 </p>
 
 

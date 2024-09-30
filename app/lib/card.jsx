@@ -13,32 +13,32 @@ const Card = ({src, title, content }) => {
 
 const Cardi = () => {
     return (
-        <div className="flex flex-wrap justify-between">
-      <div className="w-full md:w-1/2 lg:w-1/4 mb-4">
+        <div className="flex flex-wrap justify-evenly">
+      <div className="w-full md:w-1/2 lg:w-1/4 m-1">
         <Card src="https://shorturl.at/r3CQt" title="Collaboration" content="Full-stack development thrives
               in team environments, where designers, developers, and stakeholders work together to create cohesive,
               user-focused products. Open communication and synergy within the team foster creativity,
               leading to the effective execution of ideas and solutions that truly meet users' needs." />
       </div>
-      <div className="w-full md:w-1/2 lg:w-1/4 mb-4 transform translate-y-2">
+      <div className="w-full md:w-1/2 lg:w-1/4 m-1 transform translate-y-2">
         <Card src="https://shorturl.at/THFjJ" title="smart work" content=" amplifies productivity by focusing on efficiency
         and leveraging best practices. It's about using tools like Docker for smoother development cycles,
         adopting clean coding practices, and automating repetitive tasks. Smart work allows developers to
         achieve high-quality results without unnecessary effort, optimizing both time and resources." />
       </div>
-      <div className="w-full md:w-1/2 lg:w-1/4 mb-4">
+      <div className="w-full md:w-1/2 lg:w-1/4 m-1">
         <Card src="https://shorturl.at/5A5qx" title="collaboration" content="Full-stack development thrives
               in team environments, where I collaborate with other developers to create cohesive,
               user-focused products. Open communication and synergy within the team foster creativity,
               leading to the effective execution of ideas and solutions that truly meet users' needs." />
       </div>
-      <div className="w-full md:w-1/2 lg:w-1/4 mb-4 transform translate-y-2">
+      {/* <div className="w-full md:w-1/2 lg:w-1/4 m-1 transform translate-y-2">
         <Card src="https://shorturl.at/jkuom" title="Dedication" content="Being dedicated to role in development ensures excellent
               of a project to its final release.
                It requires a strong commitment to quality,
               whether refining code or ensuring seamless integration between the front-end and back-end.
               A dedicated developer doesn't just meet requirements; they exceed expectations." />
-      </div>
+      </div> */}
     </div>
   );
 };

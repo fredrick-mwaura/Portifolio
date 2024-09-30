@@ -3,10 +3,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 function ContactForm(){
-
-
-function ContactForm(){
-    const form = useRef();
+    const form = useRef(null);
 
     function sendEmail(e){
         e.preventDefault();
@@ -20,7 +17,6 @@ function ContactForm(){
                 alert('Failed to send message.');
             });
     };
-  }
 
   return (
     <form method='post' ref={form} onSubmit={sendEmail} >
@@ -91,7 +87,7 @@ function ContactForm(){
               type="submit"
               className="bg-green-500 text-white font-semibold px-6 py-2 rounded-lg hover:bg-green-600 transition duration-300"
             >
-              SUBMIT NOW
+              SEND
             </button>
           </form>
         </div>

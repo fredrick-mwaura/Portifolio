@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6bd1139-4316-4012-8598-1399d4183c41" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nextjs-dashboard.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/j4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Dashboard/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/loading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Dashboard/nav-links.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/nav-links.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Dashboard/page.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/utils.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/dash.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/dash.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -82,10 +86,22 @@
       <workItem from="1727374167495" duration="8909000" />
       <workItem from="1727414352847" duration="1943000" />
       <workItem from="1727640897206" duration="3605000" />
+      <workItem from="1727720010851" duration="4724000" />
+      <workItem from="1727726508938" duration="688000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/about/nav-links.tsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
