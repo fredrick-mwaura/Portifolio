@@ -9,12 +9,12 @@ export default function Header(className){
                     <p className="text-3xl font-extrabold"> Fredrick's Resume</p>
                     <ul className="Navigation justify-space-between">
                         {/*<ul> block for 768+, hidden for 768-*/}
-                        <li className=""><Link href="/">dash</Link></li>
+                        <li className=""><Link className='link' href="/">dash</Link></li>
                         {/*<li className=""><a href={}</li>*/}
-                        <li className=""><Link href="/about">About</Link></li>
-                        <li className=""><a href="/Projects">Projects</a></li>
-                        <li className=""><Link href="/Education">Education</Link></li>
-                        {/* <li> Blog</li> */}
+                        <li className=""><Link className='link' href="/about">About</Link></li>
+                        <li className=""><Link className='link' href="/Projects">Projects</Link></li>
+                        <li className=""><Link className='link' href="/Education">Education</Link></li>
+                         <li> Blog</li>
 
                     </ul>
                 </div>

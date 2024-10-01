@@ -3,7 +3,7 @@ import React from 'react';
 const Card = ({src, title, content }) => {
   return (
       <div
-          className="bg-amber-200 shadow-lg rounded-lg p-4 transition-transform duration-300 transform hover:translate-y-2 hover:bg-blue-50 sm:shadow-xl md:shadow-2xl">
+          className="bg-amber-200 relative shadow-lg rounded-lg p-4 transition-transform duration-300 transform hover:translate-x-2 hover:bg-blue-50 sm:shadow-xl md:shadow-2xl z-0">
             <img src={src} alt='icon'/>
           <h3 className="text-lg font-bold text-green-950 mt-2">{title}</h3>
           <p className="text-green-950">{content}</p>

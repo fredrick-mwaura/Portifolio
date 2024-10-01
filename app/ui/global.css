@@ -20,3 +20,38 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+/* Default link style */
+.link {
+  color: #1E40AF; /* Default color (blue) */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hover state */
+.link:hover {
+  color: #1E3A8A; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+.link:active {
+  color: #1D4ED8;
+}
+
+/* Visited state */
+.link:visited {
+  color: #6B7280;
+}
+
+@media (prefers-color-scheme: dark) {
+  link {
+    color: #3B82F6;
+  }
+
+  .link:hover {
+    color: #60A5FA;
+  }
+
+  .link:visited {
+    color: #D1D5DB;
+  }
+}

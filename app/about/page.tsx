@@ -8,11 +8,11 @@ import 'app/ui/dash.css';
 export default function About() {
     return (
         <div>
-            <div className='mb-4'>
+            <div>
                 <Header />
             </div>
 
-        <div className="bg-gray-100 min-h-screen">
+        <div className="bg-gray-100 ">
             <div className="container mx-auto mt-16 p-8 w-4/5">
                 <div className="flex flex-col md:flex-row items-start mb-12">
                     <div className="md:w-1/2">
@@ -25,7 +25,6 @@ export default function About() {
                         />
                     </div>
 
-                    {
                     <div className="md:w-1/2 text-lg max-w-lg leading-relaxed">
                         <h2 className="text-4xl font-bold mb-2 text-gray-800">KNOW IT ALL NOW</h2>
                         <p className="text-xl font-semibold text-gray-600 mb-4">WHO AM I</p>
