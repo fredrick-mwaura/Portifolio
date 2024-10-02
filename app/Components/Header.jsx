@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "@/app/ui/dash.css";
+// import Resume from '../../public/Fredrick-mwaura.pdf'
 
 export default function Header(className){
     return(
@@ -13,7 +14,7 @@ export default function Header(className){
                         {/*<li className=""><a href={}</li>*/}
                         <li className=""><Link className='link' href="/about">About</Link></li>
                         <li className=""><Link className='link' href="/Projects">Projects</Link></li>
-                        <li className=""><Link className='link' href="/Education">Education</Link></li>
+                        <li className=""><Link className='link' href="https://github.com/Freddy-M3363/Portifolio/blob/main/public/Fredrick-mwaura.pdf">Resume</Link></li>
                          <li> Blog</li>
 
                     </ul>
