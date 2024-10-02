@@ -14,7 +14,7 @@ export default function Header(className){
                         {/*<li className=""><a href={}</li>*/}
                         <li className=""><Link className='link' href="/about">About</Link></li>
                         <li className=""><Link className='link' href="/Projects">Projects</Link></li>
-                        <li className=""><Link className='link' href="https://github.com/Freddy-M3363/Portifolio/blob/main/public/Fredrick-mwaura.pdf">Resume</Link></li>
+                        <li className=""><Link className='link' href="https://github.com/Fredrick-mwaura/Portifolio/blob/main/public/Fredrick-mwaura.pdf">Resume</Link></li>
                          <li> Blog</li>
 
                     </ul>
