@@ -6,7 +6,8 @@ import Image from "../app/lib/image"
 // import * from '../public'
 import Cardi from "../app/lib/card"
 import Header from "@/app/Components/Header";
-import Dp from 'public/Dp.jpeg'
+import Footer from '@/app/Components/footer'
+// import Dp from 'public/Dp.jpeg'
 import React from 'react';
 import react from 'public/react.png'
 import next from 'public/next.png'
@@ -27,27 +28,20 @@ const router =  useRouter();
     // @ts-ignore
     return (
         <main>
-            <div className='z-1'><Header/></div>
+            <div className='z-1 Hiii'>
+                <Header/>                
             <div className="header">
 
-                <div className="main justify-around">
+                <div className="main justify-around text-cyan-600 ">
                     <p className="float-left mr-3"><span
                         className="text-cyan-600 font-bold text-2xl m-2">I am </span><br/>
                         <span className="text-6xl font-extrabold">
-                    Fredrick <br/> Mwaura <br/></span><span className="text-white font-bold text-4xl mr-3.5 capitalize"> <br/><br/>A talented full stack  websit<span
-                            className="text-black">e developer </span></span><br/>
+                    Fredrick <br/> Mwaura <br/></span><span className="text-white font-bold text-4xl mr-3.5 capitalize"> <br/><br/>A talented full stack  website developer</span><br/>
                         <button onClick={sayhello}
                                 className='bg-green-500 text-white font-semibold px-6 py-2 rounded-lg hover:bg-green-600 transition duration-300 m-5'> contact
                             me
                         </button>
                     </p>
-                    <Image
-                        src={Dp}
-                        alt={'profile'}
-                        width={300}
-                        height={300}
-                        className={' bg-blue-500 rounded-full right-0 mr-6'}
-                    />
                 </div>
 
 
@@ -103,6 +97,8 @@ const router =  useRouter();
             </div>
             <div className="contact" id='contactMe'>
                 <ContactForm/>
+                <Footer/>
+            </div>
             </div>
 
 

@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/**{*/
-/*  !*color: aliceblue;*!*/
-/*  background: rgba(0, 0, 0, 0.1);*/
-/*}*/
+/* body{
+  color: aliceblue;
+  background-color:rgba(6, 5, 22, 1)
+} */
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;

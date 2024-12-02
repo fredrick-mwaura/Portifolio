@@ -10,13 +10,17 @@
     /*background-color: rgba(0, 0, 0, 0.8);*/
     padding: 20px;
      height: 100dvh;
-    background-image: url("https://tinyurl.com/dsdfghjk254");
+     background-color:rgba(6, 5, 22, 1)
+    /* background-image: url("/bgh.jpg"); */
+}
+.Hiii{
+    background-color:rgba(6, 5, 22, 1)    
 }
 
 .navi{
     width: 100%;
     /*margin: 0;*/
-    color: rgb(0, 252, 0);
+    /* color: rgb(0, 252, 0); */
 
     position: fixed;
     background:rgba(37, 31, 31, 0.3);

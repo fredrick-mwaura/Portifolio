@@ -4,13 +4,12 @@ import Dp from 'public/Dp.jpeg';
 import j4 from 'public/j4.jpg';
 import Header from '../Components/Header';
 import 'app/ui/dash.css';
+import Footer from '../Components/footer';
 
 export default function About() {
     return (
         <div>
-            <div>
-                <Header />
-            </div>
+        <Header />
 
         <div className="bg-gray-100 ">
             <div className="container mx-auto mt-16 p-8 w-4/5">
@@ -55,11 +54,16 @@ export default function About() {
                     <div className="md:w-1/2 text-lg max-w-lg leading-relaxed">
                         <p className="text-gray-700 mb-6">
                             <span className="text-3xl text-blue-500">&ldquo;</span>
-                            Whether you need a dynamic web application or robust software solutions with a focus on user experience, I'm here to turn that vision into something remarkable that you'll truly appreciate. You can always reach out to me through various platforms and collaborate on something exceptional together.
+                            Whether you need a dynamic web application or robust software solutions 
+                            with a focus on user experience, 
+                            I'm here to turn that vision into something remarkable that you'll 
+                            truly appreciate. You can always reach out to me through various platforms and 
+                            collaborate on something exceptional together.
                         </p>
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     </div>
     );
